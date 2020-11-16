@@ -6,7 +6,6 @@
 
 .App-header {
   height: 50px;
-  width: 100vw;
   display: flex;
   justify-content: center;
   padding: 20px;
@@ -18,4 +17,21 @@
 
 .map {
   padding: 40px;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+}
+
+.map-container {
+  width: 80vw;
+  height: 60vh;
+  margin-top: 50px;
+  position: absolute;
+  border-radius: 5px;
+}
+
+.mapboxgl-ctrl-bottom-right, .mapboxgl-ctrl-bottom-left {
+  display: none !important;
 }
